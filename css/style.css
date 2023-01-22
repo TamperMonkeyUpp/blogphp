@@ -1,0 +1,224 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*all input*/
+input{
+    border-radius: 2px !important;
+}
+/*all input*/
+
+
+/*all card*/
+.card{
+    border-radius: 5px !important;
+    border: 1px solid #ddd;
+}
+/*all card*/
+
+
+/*all a tag*/
+a{
+    text-decoration: none;
+}
+/*all a tag*/
+
+
+/*content css*/
+#content{
+    margin-left: 270px;
+    min-height: 100vh;
+    background-image: url("../img/content-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@media (max-width: 600px) {
+    #content {
+      width: 100%;
+      margin-left: 0;
+    }
+}
+/*content css*/
+
+
+/* Sidebar Css */
+#sidebar{
+    width: 270px;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 10px #212e36;
+    background-image: linear-gradient(144deg,  #002943,#296e98,#212e36);
+}
+#sidebar img{
+    border: none;
+
+}
+#sidebar ul li a{
+    color: black;
+    background-color: #98a0e5 ;
+    border-radius: 2px;
+}
+#sidebar ul li a:hover{
+    color: white;
+    background-color: #55969e;
+}
+.active{
+    background-color: #55969e !important;
+    border: none;
+    color: white !important;
+}
+
+#sidebarOpen{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #sidebar {
+      width: 100%;
+      display: none;
+    }
+    #sidebarOpen{
+        display: block;
+    }
+}
+/* Sidebar Css */
+
+
+/*profile page css*/
+#editProfile:hover{
+    background-color:#296e98 !important;
+}
+/*profile page css*/
+
+
+/*admin blogs page css*/
+#blogEditSubmit:hover{
+    background-color: #004b6b !important;
+}
+#newBlog:hover,#blogEdit:hover{
+    background-color: #004b6b !important;
+}
+#blogDelete:hover{
+    background-color: rgb(198, 40, 40) !important;
+}
+/*admin blogs page css*/
+
+
+/*blog edit page css */
+#submit-hover:hover{
+    background-color: #004b6b !important;
+}
+/*blog edit page css */
+
+
+/*login page css*/
+#login-submit{
+    background-color: #002943 !important;
+    color: white !important;
+}
+#login-submit:hover{
+    background-color: #004b6b !important;
+}
+@media (max-width: 860px) {
+    #login-card {
+      width: 100% !important;
+    }
+  }
+/*login page css*/
+
+
+/*register page css*/
+#register-submit{
+    background-color: #002943 !important;
+    color: white !important;
+}
+#register-submit:hover{
+    background-color: #004b6b !important;
+}
+#register-card{
+    background-image: linear-gradient(144deg,  #002943,#296e98,#212e36);
+    color: white;
+}
+#register-card .invalid-feedback{
+    color: white;
+}
+
+@media (max-width: 860px) {
+    #register-card {
+      width: 100% !important;
+    }
+  }
+/*register page css*/
+
+/*blog-post page css*/
+#blog-title:hover{
+    color: #296e98 !important;
+}
+/*blog-post page css*/
+
+
+/*like and unlike */
+.hide {
+	display: none;
+}
+.fa-thumbs-up, .fa-thumbs-o-up {
+	transform: rotateY(-180deg);
+	font-size: 1.3em;
+}
+/*like and unlike */
+
+
+/*about page css*/
+.about-title,.about-text{
+    font-family:'Times New Roman', Times, serif;
+}
+.about-text{
+    font-size: 20px;
+}
+/*about page css*/
+
+#blog-page{
+    padding: 0 30px 0 50px ;
+}
+
+/*blog details page css*/
+#ownerBackground{
+    background-image: url('../img/ppp.png');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+/*blog details page css*/
+
+@media (max-width: 860px) {
+    #blog-page {
+        padding: 0 10px 0 30px ;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #CFE9DC; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0D3E5D; 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #166190; 
+  }
